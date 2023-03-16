@@ -62,7 +62,31 @@ class UIList {
         return listaAsc
     }
 
+    fun filterPrimes(list : MutableList<Int>) : List<Int>{
+        return list.filter{n -> isPrime(n)}
+    }
 
+    private fun isPrime(num : Int) : Boolean{
+        var idx = 2
+        while(idx < num && num % idx != 0){
+            idx++
+        }
+        return num >= 2 && idx == num
+    }
 
+    fun powMap(list : MutableList<Int>) : List<Int>{
+        return list.map {n -> n*n}
+    }
 
+    fun sumProdPros(list : MutableList<Int>) : Int{
+
+        var listaModificada : MutableList<Int> = mutableListOf<Int>()
+        var indice = 1
+
+        for (i in list){
+            listaModificada.add(i*indice)
+            indice++
+        }
+        return listaModificada.sum()
+    }
 }

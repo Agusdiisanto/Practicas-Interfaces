@@ -57,5 +57,25 @@ class UIListTest {
 
     }
 
+    @Test
+    fun test08_unaListaTieneUnElementosPrimos(){
+        var nums : MutableList<Int> = mutableListOf(1,2,3,4,5)
+        var numsPrimes : MutableList<Int> = mutableListOf(2,3,5)
+
+        assertEquals(numsPrimes, lista.filterPrimes(nums))
+    }
+
+    @Test
+    fun test09_unaListaTieneUnElementosPrimos(){
+        var nums : MutableList<Int> = mutableListOf(1,2,3,4,5)
+        var numsPowMap : MutableList<Int> = mutableListOf(1,4,9,16,25)
+        assertEquals(numsPowMap, lista.powMap(nums))
+    }
+
+    @Test
+    fun test10_unaLista(){
+        var nums : MutableList<Int> = mutableListOf(1,1,2,3,5,8)
+        assertEquals(94, lista.sumProdPros(nums))
+    }
 
 }
