@@ -57,6 +57,8 @@ class Usuario {
         return amigos;  // Se puede hacer tambien con filter
     }
 
+    //fun getAmigos2(): ArrayList<Usuario>{}
+
     fun meSigue(usuario: Usuario) : Boolean {
         return this.seguidores.contains(usuario);
     }
