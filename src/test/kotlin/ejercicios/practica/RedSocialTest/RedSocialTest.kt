@@ -35,6 +35,20 @@ class RedSocialTest {
 
     }
 
+    @Test
+    fun test02_usuariosQueNoSeSiguenMutuamente(){
+
+        usuarioSanti.seguirA(usuarioAgus)
+        usuarioAgus.seguirA(usuarioValen)
+
+        assertFalse(instagram.usuariosAmigosDe(usuarioSanti).contains(usuarioAgus))
+        assertFalse(instagram.usuariosAmigosDe(usuarioSanti).contains(usuarioValen))
+
+    }
+
+
+
+
 
 
 

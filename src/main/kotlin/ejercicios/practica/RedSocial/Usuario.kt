@@ -1,7 +1,6 @@
 package ejercicios.practica.RedSocial
 
 import java.time.LocalDate
-import java.util.Date
 
 class Usuario {
     private var nombreYApellido: String
@@ -55,11 +54,27 @@ class Usuario {
                amigos.add(usuario)
            }
         }
-        return amigos;
+        return amigos;  // Se puede hacer tambien con filter
     }
 
-    private fun meSigue(usuario: Usuario) : Boolean {
+    fun meSigue(usuario: Usuario) : Boolean {
         return this.seguidores.contains(usuario);
+    }
+
+    fun sigueA(usuario: Usuario) : Boolean {
+        return this.seguidos.contains(usuario);
+    }
+
+    fun getFechaNacimiento(): LocalDate {
+        return this.fechaNacimiento
+    }
+
+    fun cantidadSeguidores(): Int {
+        return this.seguidores.size
+    }
+
+    fun cantidadDeSeguidos(): Int {
+        return this.seguidos.size
     }
 
 
