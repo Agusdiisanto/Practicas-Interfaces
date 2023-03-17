@@ -3,12 +3,12 @@ package ejercicios.practica.RedSocial
 import java.time.LocalDate
 
 class Usuario {
-    private var nombreYApellido: String
-    private var nombreID: String
-    private var email : String
-    private var fechaNacimiento : LocalDate
-    private var seguidores : ArrayList<Usuario>
-    private var seguidos : ArrayList<Usuario>
+     var nombreYApellido: String
+     var nombreID: String
+     var email : String
+     var fechaNacimiento : LocalDate
+     var seguidores : ArrayList<Usuario>
+     var seguidos : ArrayList<Usuario>
 
     constructor(nombre: String, nombreID: String, email: String, nacimiento: LocalDate) {
                     this.nombreYApellido = nombre
@@ -18,7 +18,6 @@ class Usuario {
                     this.seguidores = ArrayList()
                     this.seguidos = ArrayList()
     }
-
     fun edad() : Int {
         val añoActual : Int = LocalDate.now().year
         val añoNacimiento : Int = this.fechaNacimiento.year
@@ -39,9 +38,9 @@ class Usuario {
         return "@gmail" in this.email
     }
 
-    fun getNombreYApellido(): String {
+    /*fun getNombreYApellido(): String {
         return this.nombreYApellido;
-    }
+    }*/
 
     fun cambioDeMail(mail: String) {
         this.email = mail;
@@ -67,9 +66,10 @@ class Usuario {
         return this.seguidos.contains(usuario);
     }
 
-    fun getFechaNacimiento(): LocalDate {
+    /*fun getFechaNacimiento(): LocalDate {
+
         return this.fechaNacimiento
-    }
+    }*/
 
     fun cantidadSeguidores(): Int {
         return this.seguidores.size

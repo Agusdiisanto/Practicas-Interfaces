@@ -22,12 +22,12 @@ class Strings {
         var primero : Int = 0
         var ultimo : Int = palabra.length - 1
 
-        while ( longitud > 0 && palabra.get(primero) == palabra.get(ultimo)){
-            longitud = longitud - 2;
-            primero = primero + 1
-            ultimo =  ultimo - 1;
+        while ( longitud > 0 && palabra[primero] == palabra[ultimo]){
+            longitud -= 2;
+            primero += 1
+            ultimo -= 1;
         }
-        return longitud <= 0 || palabra.get(primero) == palabra.get(ultimo)
+        return longitud <= 0 || palabra[primero] == palabra[ultimo]
     }
 
     fun vowels(palabra : String) : Int{
@@ -58,14 +58,14 @@ class Strings {
             var siguiente : Int = 1
 
             while (longitud > 1){
-                if (oracion.get(primero) != ' ' && oracion.get(siguiente) == ' '){
+                if (oracion[primero] != ' ' && oracion[siguiente] == ' '){
                     contador++
                 }
                 longitud--
                 primero++
                 siguiente++
             }
-            return if (oracion.get(primero) == ' ') contador else contador+1;
+            return if (oracion[primero] == ' ') contador else contador+1;
         }
     }
 

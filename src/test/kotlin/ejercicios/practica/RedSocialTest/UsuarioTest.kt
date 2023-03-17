@@ -27,17 +27,17 @@ class UsuarioTest {
 
     @Test
     fun test03_unUsuarioTieneNombreYApellido(){
-        assertEquals("Agustin" , usuarioAgus.getNombreYApellido())
+        assertEquals("Agustin" , usuarioAgus.nombreYApellido)
     }
 
     @Test
     fun test04_unUsuarioTieneNombreDeUsuario(){
-        assertEquals("Agustin" , usuarioAgus.getNombreYApellido())
+        assertEquals("Agustin" , usuarioAgus.nombreID)
     }
 
     @Test
     fun test05_unUsuarioTieneUnaFechaDeNacimiento(){
-        assertEquals(LocalDate.of(2002,11,3) , usuarioAgus.getFechaNacimiento())
+        assertEquals(LocalDate.of(2002,11,3) , usuarioAgus.fechaNacimiento)
     }
 
     @Test
