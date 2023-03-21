@@ -1,4 +1,4 @@
-package org.example.toDoList.model
+package org.example.toDoList.toDoList.model
 
 import java.time.LocalDate
 
@@ -10,7 +10,7 @@ class Tarea{
     var creacion : LocalDate
     var estado : TareaEstado
 
-    constructor( id : Int, titulo : String , descripcion : String , creacion : LocalDate, estado : TareaEstado){
+    constructor( id : Int, titulo : String , descripcion : String){
         this.id = id
         this.titulo = titulo
         this.descripcion = descripcion
@@ -18,7 +18,13 @@ class Tarea{
         this.estado = TareaEstado.Pendiente
     }
 
+    fun completado(){
+        this.estado = TareaEstado.Completado
+    }
 
+    fun Pendiente(){
+        this.estado = TareaEstado.Pendiente
+    }
 
 
 
