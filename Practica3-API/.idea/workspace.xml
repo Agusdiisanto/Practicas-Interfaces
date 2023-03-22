@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b678358c-4c63-4515-8eb9-545397d0d3dc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/IMB/rest/model/model/serverPelicula.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/example/IMB/rest/model/model/serverPelicula.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/toDoList/toDoList/controlador/TareaController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/example/toDoList/toDoList/controlador/TareaController.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +16,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.idea/workspace.xml" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -74,6 +79,7 @@
       <workItem from="1679422694658" duration="6000" />
       <workItem from="1679422737483" duration="5000" />
       <workItem from="1679512051953" duration="30000" />
+      <workItem from="1679512581179" duration="455000" />
     </task>
     <servers />
   </component>

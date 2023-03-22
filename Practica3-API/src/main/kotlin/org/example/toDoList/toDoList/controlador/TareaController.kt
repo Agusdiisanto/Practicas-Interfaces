@@ -26,13 +26,13 @@ class TareaController  : CrudHandler {
     }
 
     override fun getOne(ctx: Context, resourceId: String) {
-        var tarea : Tarea = busquedaDeTarea(ctx.pathParam("id").toInt())
+        val tarea : Tarea = busquedaDeTarea(ctx.pathParam("id").toInt())
         ctx.json(tarea)
     }
 
     override fun update(ctx: Context, resourceId: String) {
-        var tareaID : Tarea = busquedaDeTarea(resourceId.toInt())
-        var tareaBody : Tarea = ctx.bodyAsClass<Tarea>(Tarea::class.java)
+        val tareaID : Tarea = busquedaDeTarea(resourceId.toInt())
+        val tareaBody : Tarea = ctx.bodyAsClass<Tarea>(Tarea::class.java)
 
         if(tareaID.estado == TareaEstado.Pendiente){
             tareaID.titulo = tareaBody.titulo
@@ -48,7 +48,7 @@ class TareaController  : CrudHandler {
     fun busquedaDeTarea( id : Int ) : Tarea {
 
         // Con el signo de pregunta admiten NULL
-        var tarea : Tarea? = tareaDo.buscarTarea(id)
+        val tarea : Tarea? = tareaDo.buscarTarea(id)
         if (Objects.isNull(tarea)){
             throw NotFoundReason("No hay una tarea con dicho ID")
         }
