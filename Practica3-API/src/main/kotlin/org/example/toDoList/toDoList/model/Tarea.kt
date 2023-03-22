@@ -7,14 +7,14 @@ class Tarea{
     var id : Int
     var titulo : String
     var descripcion : String
-    var creacion : LocalDate
+    //var creacion : LocalDate
     var estado : TareaEstado
 
     constructor( id : Int, titulo : String , descripcion : String){
         this.id = id
         this.titulo = titulo
         this.descripcion = descripcion
-        this.creacion = LocalDate.now()
+        //this.creacion = LocalDate.now()
         this.estado = TareaEstado.Pendiente
     }
 
@@ -22,7 +22,7 @@ class Tarea{
         this.estado = TareaEstado.Completado
     }
 
-    fun Pendiente(){
+    fun pendiente(){
         this.estado = TareaEstado.Pendiente
     }
 

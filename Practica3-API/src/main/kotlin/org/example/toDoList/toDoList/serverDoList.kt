@@ -11,15 +11,15 @@ fun main() {
 
     app.routes {
         crud("tareas/{id}", TareaController())
-        path("tareas") {
+        path("/tareas") {
             put{ ctx -> cotroller.update(ctx, ctx.pathParam("id"))}
 
             path("/done"){
-                put(cotroller.checkTarea())
+                put(cotroller :: checkTarea)
             }
 
             path("/undone"){
-                put(controller.unchekTarea())
+                put(cotroller :: unCheckTarea)
             }
         }
     }

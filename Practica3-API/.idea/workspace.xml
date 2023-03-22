@@ -5,14 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b678358c-4c63-4515-8eb9-545397d0d3dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/org/example/toDoList/toDoList/controlador/TareaController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/org/example/toDoList/toDoList/dao/TareaDoList.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/org/example/toDoList/toDoList/error/NotFoundReason.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/org/example/IMB/rest/model/model/Pelicula.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/org/example/IMB/rest/model/model/controller/PeliculaController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/org/example/IMB/rest/model/model/serverPelicula.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/toDoList/model/Tarea.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/example/toDoList/toDoList/model/Tarea.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/toDoList/model/TareaEstado.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/example/toDoList/toDoList/model/TareaEstado.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/toDoList/serverEjercicio1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/example/toDoList/toDoList/serverDoList.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/org/example/HelloTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/org/example/toDoList/HelloTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/toDoList/toDoList/controlador/TareaController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/example/toDoList/toDoList/controlador/TareaController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/toDoList/toDoList/model/Tarea.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/example/toDoList/toDoList/model/Tarea.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/toDoList/toDoList/serverDoList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/example/toDoList/toDoList/serverDoList.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/org/example/toDoList/HelloTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/toDoList/toDoList/ServerDoListKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/toDoList/toDoList/ServerDoListKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/toDoList/toDoList/controlador/TareaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/toDoList/toDoList/controlador/TareaController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/toDoList/toDoList/model/Tarea.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/toDoList/toDoList/model/Tarea.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Enum" />
+        <option value="Kotlin File" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -67,8 +72,11 @@
     <key name="CreateKotlinClassDialog.RecentsKey">
       <recent name="error" />
     </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="org.example.IMB.rest.model.model" />
+    </key>
   </component>
-  <component name="RunManager" selected="Kotlin.ServerDoListKt (1)">
+  <component name="RunManager" selected="Kotlin.ServerPeliculaKt">
     <configuration name="ServerDoListKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.toDoList.toDoList.ServerDoListKt" />
       <module name="Practica3-API" />
@@ -83,8 +91,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServerPeliculaKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.IMB.rest.model.model.ServerPeliculaKt" />
+      <module name="Practica3-API" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ServerPeliculaKt" />
         <item itemvalue="Kotlin.ServerDoListKt (1)" />
         <item itemvalue="Kotlin.ServerDoListKt" />
       </list>
@@ -103,6 +119,8 @@
       <workItem from="1679363076949" duration="7000" />
       <workItem from="1679363601346" duration="19000" />
       <workItem from="1679396038083" duration="8005000" />
+      <workItem from="1679422960185" duration="11000" />
+      <workItem from="1679481097883" duration="4486000" />
     </task>
     <servers />
   </component>

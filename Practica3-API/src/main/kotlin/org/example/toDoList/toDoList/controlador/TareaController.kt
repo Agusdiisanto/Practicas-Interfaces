@@ -57,5 +57,23 @@ class TareaController  : CrudHandler {
     }
 
 
+    fun checkTarea(ctx: Context){
+        val id = ctx.pathParam("id").toInt()
+        val tareaID = this.busquedaDeTarea(id)
+        tareaID.completado()
+        ctx.json(tareaID)
+    }
+
+    fun unCheckTarea(ctx: Context){
+        val id = ctx.pathParam("id").toInt()
+        val tareaID : Tarea? = this.busquedaDeTarea(id)
+
+        if (Objects.isNull(tareaID)){
+            throw NotFoundReason("No hay ninguna tarea")
+        }
+
+        tareaID!!.pendiente()
+        ctx.json(tareaID!!)
+    }
 
 }
