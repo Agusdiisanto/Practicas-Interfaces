@@ -5,18 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b678358c-4c63-4515-8eb9-545397d0d3dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/org/example/IMB/rest/model/model/Pelicula.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/org/example/IMB/rest/model/model/controller/PeliculaController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/org/example/IMB/rest/model/model/serverPelicula.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/toDoList/toDoList/controlador/TareaController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/example/toDoList/toDoList/controlador/TareaController.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/toDoList/toDoList/model/Tarea.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/example/toDoList/toDoList/model/Tarea.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/toDoList/toDoList/serverDoList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/example/toDoList/toDoList/serverDoList.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/org/example/toDoList/HelloTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/toDoList/toDoList/ServerDoListKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/toDoList/toDoList/ServerDoListKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/toDoList/toDoList/controlador/TareaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/toDoList/toDoList/controlador/TareaController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/toDoList/toDoList/model/Tarea.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/toDoList/toDoList/model/Tarea.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,21 +39,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Desktop/Practicas-Interfaces/Practica-1&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/Desktop/Practicas-Interfaces/Practica3-API",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.editor",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Desktop\Practicas-Interfaces\Practica3-API\src\main\kotlin\org\example\toDoList" />
@@ -121,6 +110,11 @@
       <workItem from="1679396038083" duration="8005000" />
       <workItem from="1679422960185" duration="11000" />
       <workItem from="1679481097883" duration="4486000" />
+      <workItem from="1679488190879" duration="599000" />
+      <workItem from="1679490129970" duration="4000" />
+      <workItem from="1679494984105" duration="33000" />
+      <workItem from="1679495043395" duration="12000" />
+      <workItem from="1679495064035" duration="7000" />
     </task>
     <servers />
   </component>
