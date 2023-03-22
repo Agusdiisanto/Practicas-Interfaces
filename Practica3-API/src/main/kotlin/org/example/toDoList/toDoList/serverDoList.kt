@@ -6,7 +6,7 @@ import org.example.toDoList.toDoList.controlador.TareaController
 import org.example.toDoList.toDoList.model.Tarea
 
 fun main() {
-    val app = Javalin.create().start(7070)
+    val app = Javalin.create().start(7000)
     val cotroller = TareaController()
 
     app.routes {
