@@ -3,7 +3,7 @@ package org.example.IMB.rest.model.model.controller.buscador
 import org.example.IMB.rest.model.model.Pelicula
 import java.util.*
 
-class PorActor : ISercherForLists {
+class  PorActor : ISercherForLists {
 
     // private fun anySatisfy(directores: MutableList<String>, filtro : MutableList<String?>) : Boolean {
 //         return directores.stream().anyMatch { d -> filtro.stream().anyMatch {  } }
@@ -16,9 +16,10 @@ class PorActor : ISercherForLists {
         // println(filtro2)
         // println(Objects.isNull(filtro2))
         if (!filtro.isNullOrEmpty()){
+            filtro.forEach{ f -> println("cada uno:$f") }
             println("ACA TENES TU FILTRO: " + filtro)
             println(pelisPorActor)
-            pelisPorActor = pelisPorActor.filter { p -> p.directores.stream().anyMatch {d->filtro.contains(d)} }.toMutableList()
+            pelisPorActor = pelisPorActor.filter { p -> p.actores.stream().anyMatch {d->filtro.contains(d)} }.toMutableList()
             println("PELIS FILTRADAS: " + pelisPorActor)
         }
         return pelisPorActor
