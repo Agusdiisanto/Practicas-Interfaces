@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b678358c-4c63-4515-8eb9-545397d0d3dc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/IMB/rest/model/model/serverPelicula.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/example/IMB/rest/model/model/serverPelicula.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/toDoList/toDoList/controlador/TareaController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/example/toDoList/toDoList/controlador/TareaController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/IMB/rest/model/model/controller/PeliculaController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/example/IMB/rest/model/model/controller/PeliculaController.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +51,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.ServerPeliculaKt">
     <configuration name="HelloKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.HelloKt" />
       <module name="Practica3-API" />
@@ -60,8 +59,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServerPeliculaKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ServerPeliculaKt" />
+      <module name="Practica3-API" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ServerPeliculaKt" />
         <item itemvalue="Kotlin.HelloKt" />
       </list>
     </recent_temporary>
@@ -80,6 +87,8 @@
       <workItem from="1679422737483" duration="5000" />
       <workItem from="1679512051953" duration="30000" />
       <workItem from="1679512581179" duration="455000" />
+      <workItem from="1679523229291" duration="38000" />
+      <workItem from="1679523293037" duration="1735000" />
     </task>
     <servers />
   </component>
