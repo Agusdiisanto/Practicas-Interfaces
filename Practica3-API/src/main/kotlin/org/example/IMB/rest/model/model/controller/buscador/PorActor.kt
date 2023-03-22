@@ -4,6 +4,11 @@ import org.example.IMB.rest.model.model.Pelicula
 import java.util.*
 
 class PorActor : ISercherForLists {
+
+    // private fun anySatisfy(directores: MutableList<String>, filtro : MutableList<String?>) : Boolean {
+//         return directores.stream().anyMatch { d -> filtro.stream().anyMatch {  } }
+//     }
+
     override fun buscarPor(peliculas: MutableList<Pelicula>, filtro: MutableList<String?>): MutableList<Pelicula> {
         var pelisPorActor = peliculas
         //var filtro2 = filtro
@@ -18,10 +23,5 @@ class PorActor : ISercherForLists {
         }
         return pelisPorActor
     }
-
-    // private fun anySatisfy(directores: MutableList<String>, filtro : MutableList<String?>) : Boolean {
-//         return directores.stream().anyMatch { d -> filtro.stream().anyMatch {  } }
-//     }
-
 
 }
