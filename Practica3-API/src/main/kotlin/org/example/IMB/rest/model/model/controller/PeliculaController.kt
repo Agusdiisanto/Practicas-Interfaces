@@ -16,10 +16,10 @@ class PeliculaController{
     }
 
     fun buscarPeliculas(ctx : Context){
-        var titulo      = ctx.queryParam("title")
-        var descripcion = ctx.queryParam("description")
-        var actors      = ctx.queryParam("actors")
-        var directors   = ctx.queryParam("directors")
+        val titulo      = ctx.queryParam("title")
+        val descripcion = ctx.queryParam("description")
+        val actors      = ctx.queryParam("actors")
+        val directors   = ctx.queryParam("directors")
         var result      = peliculas
 
         result = this.buscarPorEstrategia(PorTitulo(),      result, titulo)
