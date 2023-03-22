@@ -5,18 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b678358c-4c63-4515-8eb9-545397d0d3dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/org/example/IMB/rest/model/model/Pelicula.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/org/example/IMB/rest/model/model/controller/PeliculaController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/org/example/IMB/rest/model/model/serverPelicula.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/toDoList/toDoList/controlador/TareaController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/example/toDoList/toDoList/controlador/TareaController.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/toDoList/toDoList/model/Tarea.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/example/toDoList/toDoList/model/Tarea.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/IMB/rest/model/model/controller/PeliculaController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/example/IMB/rest/model/model/controller/PeliculaController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/IMB/rest/model/model/serverPelicula.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/example/IMB/rest/model/model/serverPelicula.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/toDoList/toDoList/serverDoList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/example/toDoList/toDoList/serverDoList.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/org/example/toDoList/HelloTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/IMB/rest/model/model/ServerPeliculaKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/IMB/rest/model/model/ServerPeliculaKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/IMB/rest/model/model/controller/PeliculaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/IMB/rest/model/model/controller/PeliculaController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/toDoList/toDoList/ServerDoListKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/toDoList/toDoList/ServerDoListKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/toDoList/toDoList/controlador/TareaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/toDoList/toDoList/controlador/TareaController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/toDoList/toDoList/model/Tarea.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/toDoList/toDoList/model/Tarea.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,13 +33,6 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProjectId" id="2NIcsIVbRMUbAaOJI7DmHwqYAXL" />
   <component name="ProjectViewState">
@@ -121,10 +110,22 @@
       <workItem from="1679396038083" duration="8005000" />
       <workItem from="1679422960185" duration="11000" />
       <workItem from="1679481097883" duration="4486000" />
+      <workItem from="1679485712095" duration="3739000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

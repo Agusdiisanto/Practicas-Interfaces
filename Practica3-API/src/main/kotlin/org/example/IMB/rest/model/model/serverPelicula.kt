@@ -7,7 +7,7 @@ import org.example.IMB.rest.model.model.controller.PeliculaController
 
 
 fun main() {
-    val app = Javalin.create().start(8041)
+    val app = Javalin.create().start(7000)
 
     var pelicula1 : Pelicula = Pelicula("Rapidos y Furioso", "Accion" ,10f)
     var pelicula2 : Pelicula = Pelicula("Avengers", "Comedia" ,10f)
@@ -15,12 +15,11 @@ fun main() {
     var pelicula4 : Pelicula = Pelicula("IronMan", "Terror" ,100f)
 
     var muchasPeliculas : MutableList<Pelicula> = mutableListOf(pelicula1,pelicula2,pelicula3,pelicula4)
-    val cotroller = PeliculaController(muchasPeliculas)
+    val controller = PeliculaController(muchasPeliculas)
 
     app.routes {
-        path("peliculas"){
-            get(cotroller::buscarPeliculas)
-            get(cotroller::buscarPorRating)
+        path("searchBy") {
+            get(controller::buscarPeliculas)
         }
     }
 }
