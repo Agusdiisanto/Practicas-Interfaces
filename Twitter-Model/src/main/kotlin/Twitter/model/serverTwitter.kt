@@ -1,5 +1,6 @@
 package Twitter.model
 
+import Twitter.model.controller.TweetController
 import Twitter.model.controller.UserController
 import io.javalin.Javalin
 import io.javalin.apibuilder.ApiBuilder.*
@@ -11,16 +12,14 @@ fun main() {
     val app = Javalin.create().start(7000)
     val twitterSystem = initTwitterSystem()
     val userControler = UserController(twitterSystem)
+    val tweetController = TweetController(twitterSystem)
 
-    // Para encontrar un ID
-    println(twitterSystem.users.get(1).id)
 
     app.routes {
 
-        path("/user"){
+        path("user"){
 
-
-            path("id"){
+            path("{id}"){
                 get(userControler :: getUser)
             }
 

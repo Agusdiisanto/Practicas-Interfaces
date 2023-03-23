@@ -1,21 +1,24 @@
 package Twitter.model.controller
 
+import Twitter.model.DTO.DTOMapper
 import io.javalin.http.Context
 import org.unq.TwitterSystem
 
 
 class UserController() {
 
-    lateinit var system : TwitterSystem
+    private lateinit var system : TwitterSystem
+    lateinit var mapper: DTOMapper
     constructor(system : TwitterSystem) : this() {
         this.system = system
+        this.mapper = DTOMapper(system)
     }
 
     fun getUser(ctx : Context ){
         val usuarioID = (ctx.pathParam("id"))
-        println(usuarioID)
-        val usuario = system.getUser(usuarioID)
-        println(usuario)
+
+        val usuario = mapper.mapUserToUserDTO(system.getUser(usuarioID))
+
         ctx.json(usuario)
     }
 
