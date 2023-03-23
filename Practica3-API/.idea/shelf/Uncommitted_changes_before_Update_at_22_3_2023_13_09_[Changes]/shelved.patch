@@ -1,0 +1,94 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"b678358c-4c63-4515-8eb9-545397d0d3dc\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/kotlinc.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/kotlin/org/example/IMB/rest/model/model/controller/PeliculaController.kt\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/kotlin/org/example/IMB/rest/model/model/controller/PeliculaController.kt\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/kotlin/org/example/IMB/rest/model/model/serverPelicula.kt\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/kotlin/org/example/IMB/rest/model/model/serverPelicula.kt\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/kotlin/org/example/toDoList/toDoList/serverDoList.kt\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/kotlin/org/example/toDoList/toDoList/serverDoList.kt\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/org/example/IMB/rest/model/model/ServerPeliculaKt.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/classes/org/example/IMB/rest/model/model/ServerPeliculaKt.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/org/example/IMB/rest/model/model/controller/PeliculaController.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/classes/org/example/IMB/rest/model/model/controller/PeliculaController.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/org/example/toDoList/toDoList/ServerDoListKt.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/classes/org/example/toDoList/toDoList/ServerDoListKt.class\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Kotlin Enum\" />\r\n        <option value=\"Kotlin File\" />\r\n        <option value=\"Kotlin Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/..\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2NIcsIVbRMUbAaOJI7DmHwqYAXL\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;E:/Desktop/Practicas-Interfaces/Practica-1&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"E:\\Desktop\\Practicas-Interfaces\\Practica3-API\\src\\main\\kotlin\\org\\example\\toDoList\" />\r\n    </key>\r\n    <key name=\"CreateKotlinClassDialog.RecentsKey\">\r\n      <recent name=\"error\" />\r\n    </key>\r\n    <key name=\"MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY\">\r\n      <recent name=\"org.example.IMB.rest.model.model\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Kotlin.ServerPeliculaKt\">\r\n    <configuration name=\"ServerDoListKt (1)\" type=\"JetRunConfigurationType\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"org.example.toDoList.toDoList.ServerDoListKt\" />\r\n      <module name=\"Practica3-API\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ServerDoListKt\" type=\"JetRunConfigurationType\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"org.example.toDoList.ServerDoListKt\" />\r\n      <module name=\"Practica3-API\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ServerPeliculaKt\" type=\"JetRunConfigurationType\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"org.example.IMB.rest.model.model.ServerPeliculaKt\" />\r\n      <module name=\"Practica3-API\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Kotlin.ServerPeliculaKt\" />\r\n        <item itemvalue=\"Kotlin.ServerDoListKt (1)\" />\r\n        <item itemvalue=\"Kotlin.ServerDoListKt\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"b678358c-4c63-4515-8eb9-545397d0d3dc\" name=\"Changes\" comment=\"\" />\r\n      <created>1679355241511</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1679355241511</updated>\r\n      <workItem from=\"1679355242597\" duration=\"954000\" />\r\n      <workItem from=\"1679356714559\" duration=\"2706000\" />\r\n      <workItem from=\"1679363076949\" duration=\"7000\" />\r\n      <workItem from=\"1679363601346\" duration=\"19000\" />\r\n      <workItem from=\"1679396038083\" duration=\"8005000\" />\r\n      <workItem from=\"1679422960185\" duration=\"11000\" />\r\n      <workItem from=\"1679481097883\" duration=\"4486000\" />\r\n      <workItem from=\"1679485712095\" duration=\"3739000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 2ca7436876cfe0632a021f50d4792b1153959cb7)
++++ b/.idea/workspace.xml	(date 1679501298924)
+@@ -4,15 +4,8 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="b678358c-4c63-4515-8eb9-545397d0d3dc" name="Changes" comment="">
+-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" />
++    <list default="true" id="b678358c-4c63-4515-8eb9-545397d0d3dc" name="Changes" comment="asdsad">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/IMB/rest/model/model/controller/PeliculaController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/example/IMB/rest/model/model/controller/PeliculaController.kt" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/IMB/rest/model/model/serverPelicula.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/example/IMB/rest/model/model/serverPelicula.kt" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/toDoList/toDoList/serverDoList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/example/toDoList/toDoList/serverDoList.kt" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/IMB/rest/model/model/ServerPeliculaKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/IMB/rest/model/model/ServerPeliculaKt.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/IMB/rest/model/model/controller/PeliculaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/IMB/rest/model/model/controller/PeliculaController.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/toDoList/toDoList/ServerDoListKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/toDoList/toDoList/ServerDoListKt.class" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -39,21 +32,24 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;E:/Desktop/Practicas-Interfaces/Practica-1&quot;,
+-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
++    "WebServerToolWindowFactoryState": "false",
++    "last_opened_file_path": "E:/Desktop/Practicas-Interfaces/Practica-1",
++    "node.js.detected.package.eslint": "true",
++    "node.js.detected.package.tslint": "true",
++    "node.js.selected.package.eslint": "(autodetect)",
++    "node.js.selected.package.tslint": "(autodetect)",
++    "project.structure.last.edited": "SDKs",
++    "project.structure.proportion": "0.0",
++    "project.structure.side.proportion": "0.0",
++    "settings.editor.selected.configurable": "MavenSettings",
++    "vue.rearranger.settings.migration": "true"
+   }
+-}</component>
++}]]></component>
+   <component name="RecentsManager">
+     <key name="MoveFile.RECENT_KEYS">
+       <recent name="E:\Desktop\Practicas-Interfaces\Practica3-API\src\main\kotlin\org\example\toDoList" />
+@@ -110,8 +106,16 @@
+       <workItem from="1679396038083" duration="8005000" />
+       <workItem from="1679422960185" duration="11000" />
+       <workItem from="1679481097883" duration="4486000" />
+-      <workItem from="1679485712095" duration="3739000" />
++      <workItem from="1679485712095" duration="7613000" />
++    </task>
++    <task id="LOCAL-00001" summary="asdsad">
++      <created>1679489618371</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1679489618371</updated>
+     </task>
++    <option name="localTasksCounter" value="2" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -128,4 +132,8 @@
+       </map>
+     </option>
+   </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="asdsad" />
++    <option name="LAST_COMMIT_MESSAGE" value="asdsad" />
++  </component>
+ </project>
+\ No newline at end of file
