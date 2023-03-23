@@ -10,18 +10,18 @@ fun main() {
 
     val app = Javalin.create().start(7000)
     val twitterSystem = initTwitterSystem()
-    val userControler = UserController(twitterSystem)
+    val userController = UserController(twitterSystem)
     val tweetController = TweetController(twitterSystem)
 
 
     app.routes {
-
         path("user"){
-
             path("{id}"){
-                get(userControler :: getUserWithId)
+                get(userController :: getUserWithId)
             }
-
+        }
+        path("search"){
+            get(tweetController :: getTweetsWithText)
         }
 
     }

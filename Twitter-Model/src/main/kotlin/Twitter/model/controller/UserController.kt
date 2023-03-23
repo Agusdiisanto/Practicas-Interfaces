@@ -3,6 +3,7 @@ package Twitter.model.controller
 import Twitter.model.DTO.DTOMapper
 import io.javalin.http.Context
 import org.unq.TwitterSystem
+import org.unq.UserException
 
 
 class UserController() {
@@ -16,10 +17,15 @@ class UserController() {
 
     fun getUserWithId(ctx : Context ){
         val usuarioID = (ctx.pathParam("id"))
+        try{
+            val usuario = mapper.mapUserToUserDTO(system.getUser(usuarioID))
+            ctx.json(usuario)
 
-        val usuario = mapper.mapUserToUserDTO(system.getUser(usuarioID))
+        } catch (e: UserException){
+            ctx.status(404)
+            ctx.json(e.message!!)
+        }
 
-        ctx.json(usuario)
     }
 
 

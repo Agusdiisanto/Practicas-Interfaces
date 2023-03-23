@@ -37,7 +37,7 @@ class DTOMapper() {
         )
     }
 
-    private fun mapTweetToSimpleTweetDTO(tweet: Tweet): SimpleTweetDTO {
+    fun mapTweetToSimpleTweetDTO(tweet: Tweet): SimpleTweetDTO {
         val user = mapUserToSimpleUserDTO(tweet.user)
         val likes = tweet.likes.map { mapUserToSimpleUserDTO(it) }
         val type = mapTweetTypeToTwitterTypeDTO(tweet.type)
