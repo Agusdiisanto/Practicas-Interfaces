@@ -20,9 +20,22 @@ fun main() {
                 get(userController :: getUserWithId)
             }
         }
+
+
         path("search"){
             get(tweetController :: getTweetsWithText)
         }
+        path("trendingTopics"){
+            get(tweetController :: getTweetsWhitMostLikes)
+        }
+
+        path("tweet"){
+            path("{id}"){
+                get(tweetController :: getTweetByID)
+            }
+            post(tweetController :: addTweet)
+        }
+
 
     }
 

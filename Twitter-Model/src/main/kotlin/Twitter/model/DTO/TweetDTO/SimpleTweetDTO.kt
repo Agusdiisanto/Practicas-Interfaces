@@ -1,6 +1,6 @@
-package Twitter.model.DTO
+package Twitter.model.DTO.TweetDTO
 
-import org.unq.TweetType
+import Twitter.model.DTO.UsuarioDTO.SimpleUserDTO
 
 class SimpleTweetDTO(
     val id: String,
