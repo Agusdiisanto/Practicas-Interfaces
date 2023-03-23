@@ -1,7 +1,8 @@
-package org.example.IMB.rest.model.model
+
 
 import io.javalin.Javalin
 import io.javalin.apibuilder.ApiBuilder.*
+import org.example.IMB.rest.model.model.Pelicula
 import org.example.IMB.rest.model.model.controller.PeliculaController
 
 
