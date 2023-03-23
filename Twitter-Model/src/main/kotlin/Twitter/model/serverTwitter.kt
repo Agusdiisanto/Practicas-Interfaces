@@ -4,7 +4,6 @@ import Twitter.model.controller.TweetController
 import Twitter.model.controller.UserController
 import io.javalin.Javalin
 import io.javalin.apibuilder.ApiBuilder.*
-import org.unq.User
 import org.unq.initTwitterSystem
 
 fun main() {
@@ -20,7 +19,7 @@ fun main() {
         path("user"){
 
             path("{id}"){
-                get(userControler :: getUser)
+                get(userControler :: getUserWithId)
             }
 
         }

@@ -14,7 +14,7 @@ class UserController() {
         this.mapper = DTOMapper(system)
     }
 
-    fun getUser(ctx : Context ){
+    fun getUserWithId(ctx : Context ){
         val usuarioID = (ctx.pathParam("id"))
 
         val usuario = mapper.mapUserToUserDTO(system.getUser(usuarioID))
