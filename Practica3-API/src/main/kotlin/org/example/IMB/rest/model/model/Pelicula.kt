@@ -18,4 +18,7 @@ class Pelicula{
         this.actores     = actores
         this.rating      = rating
     }
+
+
+
 }

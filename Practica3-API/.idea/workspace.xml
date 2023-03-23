@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b678358c-4c63-4515-8eb9-545397d0d3dc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22-Mar-23_13_01__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/IMB/rest/model/model/controller/PeliculaController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/example/IMB/rest/model/model/controller/PeliculaController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/IMB/rest/model/model/Pelicula.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/example/IMB/rest/model/model/Pelicula.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/IMB/rest/model/model/serverPelicula.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/example/IMB/rest/model/model/serverPelicula.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/toDoList/toDoList/serverDoList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/example/toDoList/toDoList/serverDoList.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/IMB/rest/model/model/ServerPeliculaKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/IMB/rest/model/model/ServerPeliculaKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/IMB/rest/model/model/controller/PeliculaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/IMB/rest/model/model/controller/PeliculaController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/toDoList/toDoList/ServerDoListKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/toDoList/toDoList/ServerDoListKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Practica3-API.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/Practica3-API.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/IMB/rest/model/model/ServerPeliculaKt.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +44,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Desktop/Practicas-Interfaces/Practica-1&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Desktop/Practicas-Interfaces/Practica3-API&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -65,7 +64,7 @@
       <recent name="org.example.IMB.rest.model.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.ServerPeliculaKt">
+  <component name="RunManager" selected="Kotlin.ServerPeliculaKt (1)">
     <configuration name="ServerDoListKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.toDoList.toDoList.ServerDoListKt" />
       <module name="Practica3-API" />
@@ -80,6 +79,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServerPeliculaKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ServerPeliculaKt" />
+      <module name="Practica3-API" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ServerPeliculaKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.IMB.rest.model.model.ServerPeliculaKt" />
       <module name="Practica3-API" />
@@ -89,6 +95,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ServerPeliculaKt (1)" />
         <item itemvalue="Kotlin.ServerPeliculaKt" />
         <item itemvalue="Kotlin.ServerDoListKt (1)" />
         <item itemvalue="Kotlin.ServerDoListKt" />
@@ -110,7 +117,17 @@
       <workItem from="1679396038083" duration="8005000" />
       <workItem from="1679422960185" duration="11000" />
       <workItem from="1679481097883" duration="4486000" />
+      <workItem from="1679488190879" duration="599000" />
+      <workItem from="1679490129970" duration="4000" />
+      <workItem from="1679494984105" duration="33000" />
+      <workItem from="1679495043395" duration="12000" />
+      <workItem from="1679495064035" duration="7000" />
       <workItem from="1679485712095" duration="3739000" />
+      <workItem from="1679495286104" duration="147000" />
+      <workItem from="1679499006480" duration="207000" />
+      <workItem from="1679499223583" duration="609000" />
+      <workItem from="1679501318756" duration="72000" />
+      <workItem from="1679512449053" duration="147000" />
     </task>
     <servers />
   </component>

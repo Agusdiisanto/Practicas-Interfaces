@@ -14,14 +14,11 @@ class PeliculaController{
     }
 
     fun buscarPeliculas(ctx : Context){
-        var titulo      = ctx.queryParam("title")
-        var descripcion = ctx.queryParam("description")
-        var actors      = ctx.queryParams("actors")
-        var directors   = ctx.queryParams("directors")
-        var map         = ctx.queryParamMap()
+        val titulo      = ctx.queryParam("title")
+        val descripcion = ctx.queryParam("description")
+        val actors      = ctx.queryParams("actors")
+        val directors   = ctx.queryParams("directors")
         var result      = peliculas
-        println("map: $map")
-        map.values.forEach { k -> println(k) }
 
         result = this.buscarPorEstrategia(PorTitulo(),      result, titulo)
         result = this.buscarPorEstrategia(PorDescripcion(), result, descripcion)
@@ -37,18 +34,17 @@ class PeliculaController{
         return estrategia.buscarPor(peliculas, filtro)
     }
     fun buscarPorRanking(ctx : Context){
-        var minRanking  = ctx.queryParam("min_rating")
-        var limit       = ctx.queryParam("limit")
+        val minRanking  = ctx.queryParam("min_rating")
+        val limit       = ctx.queryParam("limit")
         var result: MutableList<Pelicula>
         result = peliculas.sortedBy{ -it.rating }.toMutableList()
         if(!minRanking.isNullOrEmpty()){
             result = result.filter {r -> r.rating > minRanking.toFloat() }.toMutableList()
         }
         if(!limit.isNullOrEmpty()){
-            var new_limit = kotlin.math.min(limit.toInt(), result.size)
+            val new_limit = kotlin.math.min(limit.toInt(), result.size)
             result = result.slice(0..new_limit-1).toMutableList()
         }
-
         ctx.json(result)
 
     }
