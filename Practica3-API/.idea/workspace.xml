@@ -4,26 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b678358c-4c63-4515-8eb9-545397d0d3dc" name="Changes" comment="" />
+    <list default="true" id="b678358c-4c63-4515-8eb9-545397d0d3dc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_3_2023_13_09__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_3_2023_13_09__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_3_2023_21_34__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_3_2023_21_34__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/IMB/rest/model/model/serverPelicula.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/example/IMB/rest/model/model/serverPelicula.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Kotlin Enum" />
-        <option value="Kotlin File" />
-        <option value="Kotlin Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.idea/workspace.xml" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2NIcsIVbRMUbAaOJI7DmHwqYAXL" />
   <component name="ProjectViewState">
@@ -34,52 +40,29 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Desktop/Practicas-Interfaces/Practica3-API&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Usuario/OneDrive/Escritorio/Practicas-Interfaces/Practica3-API&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Desktop\Practicas-Interfaces\Practica3-API\src\main\kotlin\org\example\toDoList" />
-    </key>
-    <key name="CreateKotlinClassDialog.RecentsKey">
-      <recent name="error" />
-    </key>
-    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
-      <recent name="org.example.IMB.rest.model.model" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Kotlin.ServerPeliculaKt (1)">
-    <configuration name="ServerDoListKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.toDoList.toDoList.ServerDoListKt" />
-      <module name="Practica3-API" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ServerDoListKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.toDoList.ServerDoListKt" />
-      <module name="Practica3-API" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ServerPeliculaKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ServerPeliculaKt" />
+  <component name="RunManager" selected="Kotlin.ServerPeliculaKt">
+    <configuration name="HelloKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.HelloKt" />
       <module name="Practica3-API" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="ServerPeliculaKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.IMB.rest.model.model.ServerPeliculaKt" />
+      <option name="MAIN_CLASS_NAME" value="ServerPeliculaKt" />
       <module name="Practica3-API" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -87,10 +70,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.ServerPeliculaKt (1)" />
         <item itemvalue="Kotlin.ServerPeliculaKt" />
-        <item itemvalue="Kotlin.ServerDoListKt (1)" />
-        <item itemvalue="Kotlin.ServerDoListKt" />
+        <item itemvalue="Kotlin.HelloKt" />
       </list>
     </recent_temporary>
   </component>
@@ -103,39 +84,17 @@
       <option name="presentableId" value="Default" />
       <updated>1679355241511</updated>
       <workItem from="1679355242597" duration="954000" />
-      <workItem from="1679356714559" duration="2706000" />
-      <workItem from="1679363076949" duration="7000" />
-      <workItem from="1679363601346" duration="19000" />
-      <workItem from="1679396038083" duration="8005000" />
-      <workItem from="1679422960185" duration="11000" />
-      <workItem from="1679481097883" duration="4486000" />
-      <workItem from="1679488190879" duration="599000" />
-      <workItem from="1679490129970" duration="4000" />
-      <workItem from="1679494984105" duration="33000" />
-      <workItem from="1679495043395" duration="12000" />
-      <workItem from="1679495064035" duration="7000" />
-      <workItem from="1679485712095" duration="3739000" />
-      <workItem from="1679495286104" duration="147000" />
-      <workItem from="1679499006480" duration="207000" />
-      <workItem from="1679499223583" duration="609000" />
-      <workItem from="1679501318756" duration="72000" />
-      <workItem from="1679512449053" duration="147000" />
-      <workItem from="1679530912336" duration="3000" />
+      <workItem from="1679356603162" duration="96000" />
+      <workItem from="1679422694658" duration="6000" />
+      <workItem from="1679422737483" duration="5000" />
+      <workItem from="1679512051953" duration="30000" />
+      <workItem from="1679512581179" duration="455000" />
+      <workItem from="1679523229291" duration="38000" />
+      <workItem from="1679523293037" duration="1735000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>

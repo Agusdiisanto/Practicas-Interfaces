@@ -18,6 +18,7 @@ fun main() {
     val actores4    = mutableListOf("Ariel", "Raul")
 
 
+
     val pelicula1  = Pelicula("Rapidos y Furioso", "Accion", directores1, actores4, 10f)
     val pelicula2  = Pelicula("Avengers", "Comedia",directores2, actores1, 20f)
     val pelicula3  = Pelicula("Batman", "Accion",directores1, actores3, 3f)
