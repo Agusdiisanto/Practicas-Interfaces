@@ -1,5 +1,6 @@
 package Twitter.model.controller
 
+import Twitter.model.DTO.ErrorDTO.ErrorDTO
 import Twitter.model.DTO.UsuarioDTO.DTOMapper
 import io.javalin.http.Context
 import org.unq.TwitterSystem
@@ -23,7 +24,7 @@ class UserController() {
 
         } catch (e: UserException){
             ctx.status(404)
-            ctx.json(e.message!!)
+            ctx.json(ErrorDTO(e.message!!))
         }
 
     }

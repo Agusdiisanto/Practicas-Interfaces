@@ -8,7 +8,11 @@ import org.unq.initTwitterSystem
 
 fun main() {
 
-    val app = Javalin.create().start(7000)
+    val app = Javalin.create {
+        it.http.defaultContentType = "application/json"
+    }
+        .start(7000)
+
     val twitterSystem = initTwitterSystem()
     val userController = UserController(twitterSystem)
     val tweetController = TweetController(twitterSystem)
@@ -21,7 +25,6 @@ fun main() {
             }
         }
 
-
         path("search"){
             get(tweetController :: getTweetsWithText)
         }
@@ -30,10 +33,11 @@ fun main() {
         }
 
         path("tweet"){
+            post(tweetController :: addTweet)
             path("{id}"){
                 get(tweetController :: getTweetByID)
             }
-            post(tweetController :: addTweet)
+
         }
 
 

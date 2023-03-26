@@ -1,11 +1,13 @@
 package Twitter.model.controller
 
+import Twitter.model.DTO.ErrorDTO.ErrorDTO
 import Twitter.model.DTO.TweetDTO.AddTweetDTO
 import Twitter.model.DTO.UsuarioDTO.DTOMapper
 import Twitter.model.DTO.TweetDTO.TweetsResultDTO
 import io.javalin.http.Context
 import org.unq.DraftTweet
 import org.unq.Tweet
+import org.unq.TweetException
 import org.unq.TwitterSystem
 
 
@@ -25,17 +27,15 @@ class TweetController() {
             val result = system.search(text!!)
             val dtoResult = TweetsResultDTO(result.map{mapper.mapTweetToSimpleTweetDTO(it)}.toMutableList())
             ctx.json(dtoResult)
-        } catch (e:java.lang.Exception){}
+        } catch (e: Exception){}
     }
 
     fun getTweetsWhitMostLikes(ctx : Context){
-
-        val text = ctx.queryParam("text")
         try{
             val result = system.getTrendingTopics()
             val dtoResult = TweetsResultDTO(result.map{mapper.mapTweetToSimpleTweetDTO(it)}.toMutableList())
             ctx.json(dtoResult)
-        } catch (e:java.lang.Exception){}
+        } catch (e:Exception){}
     }
 
     fun addTweet(ctx : Context){
@@ -43,15 +43,22 @@ class TweetController() {
         // Validacion de usuario FALTA
 
         val newTweet = ctx.bodyAsClass<AddTweetDTO>(AddTweetDTO::class.java)
-        val draft : DraftTweet = DraftTweet("u_2",newTweet.content,newTweet.image)
-        system.addNewTweet(draft)
-        ctx.json(newTweet)
+        val draft = DraftTweet("u_2",newTweet.content,newTweet.image)
+        val dto = mapper.mapTweetToTweetDTO(system.addNewTweet(draft))
+        ctx.json(dto)
+
     }
 
     fun getTweetByID(ctx : Context){
-        val tweetID : String = ctx.pathParam("id")
-        val tweet : Tweet = system.getTweet(tweetID)
-        ctx.json(tweet)
+        val tweetID = ctx.pathParam("id")
+        try{
+            val dto = mapper.mapTweetToTweetDTO(system.getTweet(tweetID))
+            ctx.json(dto)
+        } catch (e: TweetException){
+            ctx.status(404)
+            ctx.json(ErrorDTO(e.message!!))
+        }
+
     }
 
 
