@@ -1,9 +1,13 @@
 package Twitter.model.controller
 
-import Twitter.model.DTO.DTOMapper
-import Twitter.model.DTO.TweetsResultDTO
+import Twitter.model.DTO.TweetDTO.AddTweetDTO
+import Twitter.model.DTO.UsuarioDTO.DTOMapper
+import Twitter.model.DTO.TweetDTO.TweetsResultDTO
 import io.javalin.http.Context
+import org.unq.DraftTweet
+import org.unq.Tweet
 import org.unq.TwitterSystem
+
 
 class TweetController() {
 
@@ -23,5 +27,38 @@ class TweetController() {
             ctx.json(dtoResult)
         } catch (e:java.lang.Exception){}
     }
+
+    fun getTweetsWhitMostLikes(ctx : Context){
+
+        val text = ctx.queryParam("text")
+        try{
+            val result = system.getTrendingTopics()
+            val dtoResult = TweetsResultDTO(result.map{mapper.mapTweetToSimpleTweetDTO(it)}.toMutableList())
+            ctx.json(dtoResult)
+        } catch (e:java.lang.Exception){}
+    }
+
+    fun addTweet(ctx : Context){
+
+        // Validacion de usuario FALTA
+
+        val newTweet = ctx.bodyAsClass<AddTweetDTO>(AddTweetDTO::class.java)
+        val draft : DraftTweet = DraftTweet("u_2",newTweet.content,newTweet.image)
+        system.addNewTweet(draft)
+        ctx.json(newTweet)
+    }
+
+    fun getTweetByID(ctx : Context){
+        val tweetID : String = ctx.pathParam("id")
+        val tweet : Tweet = system.getTweet(tweetID)
+        ctx.json(tweet)
+    }
+
+
+
+
+
+
+
 
 }
